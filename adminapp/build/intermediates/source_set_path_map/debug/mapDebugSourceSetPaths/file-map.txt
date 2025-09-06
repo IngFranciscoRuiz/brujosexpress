@@ -32,22 +32,24 @@ com.fjapps.brujosexpress.admin.adminapp-activity-1.8.2-30 C:\Users\FRANCISCO RUI
 com.fjapps.brujosexpress.admin.adminapp-activity-compose-1.8.2-31 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b3c20c1a82a4c291bfd4568280f92f97\transformed\activity-compose-1.8.2\res
 com.fjapps.brujosexpress.admin.adminapp-ui-tooling-data-release-32 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b81d2e3c50796564b58b0bb4f5260da1\transformed\ui-tooling-data-release\res
 com.fjapps.brujosexpress.admin.adminapp-lifecycle-viewmodel-compose-release-33 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b9fb56268b7286514ad970ecf887195e\transformed\lifecycle-viewmodel-compose-release\res
-com.fjapps.brujosexpress.admin.adminapp-animation-core-release-34 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be670374d95b6db4d75bce42ff31c7b8\transformed\animation-core-release\res
-com.fjapps.brujosexpress.admin.adminapp-ui-test-manifest-1.6.0-35 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d59f5141c7002f41562193d154684b60\transformed\ui-test-manifest-1.6.0\res
-com.fjapps.brujosexpress.admin.adminapp-ui-tooling-preview-release-36 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d5b11acc4da31aaca7b60123a83fd0b2\transformed\ui-tooling-preview-release\res
-com.fjapps.brujosexpress.admin.adminapp-lifecycle-runtime-ktx-release-37 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\dd5a65e31fd599705bc77a99c2ce8d6d\transformed\lifecycle-runtime-ktx-release\res
-com.fjapps.brujosexpress.admin.adminapp-runtime-release-38 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e3f421dde7841502ccc4cb72dab2578d\transformed\runtime-release\res
-com.fjapps.brujosexpress.admin.adminapp-ui-tooling-release-39 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e613ef08c754441a8fb403401cfb00a4\transformed\ui-tooling-release\res
-com.fjapps.brujosexpress.admin.adminapp-ui-util-release-40 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e6590aab38e54ed1288e22092324fa93\transformed\ui-util-release\res
-com.fjapps.brujosexpress.admin.adminapp-lifecycle-livedata-core-2.8.4-41 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e66b8ee00950bf01b4b1ff083bb712f2\transformed\lifecycle-livedata-core-2.8.4\res
-com.fjapps.brujosexpress.admin.adminapp-ui-release-42 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f018b1a79ba49357f3ee915bfea2bbb7\transformed\ui-release\res
-com.fjapps.brujosexpress.admin.adminapp-activity-ktx-1.8.2-43 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f0a4aebe09f5e9b498f468c6e4e1839b\transformed\activity-ktx-1.8.2\res
-com.fjapps.brujosexpress.admin.adminapp-lifecycle-process-2.8.4-44 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f82f2246a97566f15585038a2c3d7cc5\transformed\lifecycle-process-2.8.4\res
-com.fjapps.brujosexpress.admin.adminapp-lifecycle-runtime-release-45 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f9eed8ca0d982094da31d94c63a871ff\transformed\lifecycle-runtime-release\res
-com.fjapps.brujosexpress.admin.adminapp-foundation-release-46 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\fa9f2417adfa4b651295c0b81cd94aea\transformed\foundation-release\res
-com.fjapps.brujosexpress.admin.adminapp-resValues-47 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\generated\res\resValues\debug
-com.fjapps.brujosexpress.admin.adminapp-packageDebugResources-48 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.fjapps.brujosexpress.admin.adminapp-packageDebugResources-49 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.fjapps.brujosexpress.admin.adminapp-debug-50 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\intermediates\merged_res\debug\mergeDebugResources
-com.fjapps.brujosexpress.admin.adminapp-debug-51 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\src\debug\res
-com.fjapps.brujosexpress.admin.adminapp-main-52 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\src\main\res
+com.fjapps.brujosexpress.admin.adminapp-coil-base-2.5.0-34 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\bb2257080c1c6942de16e69721eb6deb\transformed\coil-base-2.5.0\res
+com.fjapps.brujosexpress.admin.adminapp-animation-core-release-35 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be670374d95b6db4d75bce42ff31c7b8\transformed\animation-core-release\res
+com.fjapps.brujosexpress.admin.adminapp-ui-test-manifest-1.6.0-36 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d59f5141c7002f41562193d154684b60\transformed\ui-test-manifest-1.6.0\res
+com.fjapps.brujosexpress.admin.adminapp-ui-tooling-preview-release-37 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d5b11acc4da31aaca7b60123a83fd0b2\transformed\ui-tooling-preview-release\res
+com.fjapps.brujosexpress.admin.adminapp-lifecycle-runtime-ktx-release-38 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\dd5a65e31fd599705bc77a99c2ce8d6d\transformed\lifecycle-runtime-ktx-release\res
+com.fjapps.brujosexpress.admin.adminapp-runtime-release-39 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e3f421dde7841502ccc4cb72dab2578d\transformed\runtime-release\res
+com.fjapps.brujosexpress.admin.adminapp-ui-tooling-release-40 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e613ef08c754441a8fb403401cfb00a4\transformed\ui-tooling-release\res
+com.fjapps.brujosexpress.admin.adminapp-ui-util-release-41 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e6590aab38e54ed1288e22092324fa93\transformed\ui-util-release\res
+com.fjapps.brujosexpress.admin.adminapp-lifecycle-livedata-core-2.8.4-42 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e66b8ee00950bf01b4b1ff083bb712f2\transformed\lifecycle-livedata-core-2.8.4\res
+com.fjapps.brujosexpress.admin.adminapp-ui-release-43 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f018b1a79ba49357f3ee915bfea2bbb7\transformed\ui-release\res
+com.fjapps.brujosexpress.admin.adminapp-activity-ktx-1.8.2-44 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f0a4aebe09f5e9b498f468c6e4e1839b\transformed\activity-ktx-1.8.2\res
+com.fjapps.brujosexpress.admin.adminapp-lifecycle-process-2.8.4-45 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f82f2246a97566f15585038a2c3d7cc5\transformed\lifecycle-process-2.8.4\res
+com.fjapps.brujosexpress.admin.adminapp-lifecycle-runtime-release-46 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f9eed8ca0d982094da31d94c63a871ff\transformed\lifecycle-runtime-release\res
+com.fjapps.brujosexpress.admin.adminapp-foundation-release-47 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\fa9f2417adfa4b651295c0b81cd94aea\transformed\foundation-release\res
+com.fjapps.brujosexpress.admin.adminapp-appcompat-resources-1.6.1-48 C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\fce11a9286d45fc04c82a27811e88094\transformed\appcompat-resources-1.6.1\res
+com.fjapps.brujosexpress.admin.adminapp-resValues-49 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\generated\res\resValues\debug
+com.fjapps.brujosexpress.admin.adminapp-packageDebugResources-50 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.fjapps.brujosexpress.admin.adminapp-packageDebugResources-51 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.fjapps.brujosexpress.admin.adminapp-debug-52 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\build\intermediates\merged_res\debug\mergeDebugResources
+com.fjapps.brujosexpress.admin.adminapp-debug-53 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\src\debug\res
+com.fjapps.brujosexpress.admin.adminapp-main-54 D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\src\main\res

@@ -71,6 +71,10 @@ dependencies {
     // Material Icons Extended
     implementation("androidx.compose.material:material-icons-extended:1.6.1")
     
+    // Media3 ExoPlayer for video playback in splash
+    implementation("androidx.media3:media3-exoplayer:1.3.1")
+    implementation("androidx.media3:media3-ui:1.3.1")
+    
     // Removed invalid/unknown dependencies
 
     testImplementation(libs.junit)

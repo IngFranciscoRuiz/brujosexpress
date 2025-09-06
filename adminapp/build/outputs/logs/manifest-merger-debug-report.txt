@@ -16,6 +16,10 @@ MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Use
 MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\556d71afa555b0b0fb190c6808163c13\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\3af98830ea493b7838939e318b65c2c2\transformed\material-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\1d92b60f9a328c131d744e277b2f09fc\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\666d782ddb8b81796f07a9bc587cc77d\transformed\coil-compose-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\92e1fb350cc1edd7ad939f5263e5c005\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d7197c1167a14d8c07cad713ddd999e2\transformed\coil-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\bb2257080c1c6942de16e69721eb6deb\transformed\coil-base-2.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be670374d95b6db4d75bce42ff31c7b8\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\6a8f44d65aff513d7a0feba0e2f09a37\transformed\animation-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\989bec53166b808a5a55717b08c52f8b\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
@@ -36,6 +40,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] C:\Users\FRAN
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\a352102f55a61a7bd719578dd2f197c8\transformed\lifecycle-viewmodel-savedstate-2.8.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\0be16b11dec6bf825f27783b170c2e78\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b9fb56268b7286514ad970ecf887195e\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be191ed0429b2bd7ccae709ec4078ee4\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f018b1a79ba49357f3ee915bfea2bbb7\transformed\ui-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d59f5141c7002f41562193d154684b60\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e613ef08c754441a8fb403401cfb00a4\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
@@ -43,6 +48,9 @@ MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\FRANCISCO RUIZ\.
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f0a4aebe09f5e9b498f468c6e4e1839b\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b3226884a77628af7f03148b9fe03f99\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\464e0ea3e54f53b4eaa4ed03564cc788\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\fce11a9286d45fc04c82a27811e88094\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d751d0630f980735ea226bcb72179e1a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\083e467218916ba14f9814a24644bd64\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.12.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\171867885cdae4633c2a5de4277ddcbd\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\739ad17410b264794a71098df85515cf\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\83e9eda135e50b4304ad7f388ef63988\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
@@ -54,6 +62,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FR
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\1522eff88b60be28d86c163201479a12\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\1f4bbed7fdd31ffce01972b40336461d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\6dfbd49f7ada1491036c90ebe0a33dd9\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e6cb02acac6a24d0c6f4133f3f17ab2e\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\3bd6b364a34557809c6e31ee715bdd80\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from D:\APLICACIONES_MOVILES\BrujosExpress\adminapp\src\main\AndroidManifest.xml
@@ -152,6 +161,14 @@ MERGED from [androidx.compose.material:material-android:1.6.0] C:\Users\FRANCISC
 MERGED from [androidx.compose.material:material-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\3af98830ea493b7838939e318b65c2c2\transformed\material-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\1d92b60f9a328c131d744e277b2f09fc\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\1d92b60f9a328c131d744e277b2f09fc\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\666d782ddb8b81796f07a9bc587cc77d\transformed\coil-compose-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\666d782ddb8b81796f07a9bc587cc77d\transformed\coil-compose-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\92e1fb350cc1edd7ad939f5263e5c005\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\92e1fb350cc1edd7ad939f5263e5c005\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d7197c1167a14d8c07cad713ddd999e2\transformed\coil-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d7197c1167a14d8c07cad713ddd999e2\transformed\coil-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\bb2257080c1c6942de16e69721eb6deb\transformed\coil-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\bb2257080c1c6942de16e69721eb6deb\transformed\coil-base-2.5.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be670374d95b6db4d75bce42ff31c7b8\transformed\animation-core-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be670374d95b6db4d75bce42ff31c7b8\transformed\animation-core-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\6a8f44d65aff513d7a0feba0e2f09a37\transformed\animation-release\AndroidManifest.xml:5:5-44
@@ -192,6 +209,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\FRANCISC
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\0be16b11dec6bf825f27783b170c2e78\transformed\lifecycle-viewmodel-ktx-2.8.4\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b9fb56268b7286514ad970ecf887195e\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b9fb56268b7286514ad970ecf887195e\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be191ed0429b2bd7ccae709ec4078ee4\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\be191ed0429b2bd7ccae709ec4078ee4\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f018b1a79ba49357f3ee915bfea2bbb7\transformed\ui-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\f018b1a79ba49357f3ee915bfea2bbb7\transformed\ui-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d59f5141c7002f41562193d154684b60\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:20:5-44
@@ -206,6 +225,12 @@ MERGED from [androidx.activity:activity:1.8.2] C:\Users\FRANCISCO RUIZ\.gradle\c
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\b3226884a77628af7f03148b9fe03f99\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\464e0ea3e54f53b4eaa4ed03564cc788\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\464e0ea3e54f53b4eaa4ed03564cc788\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\fce11a9286d45fc04c82a27811e88094\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\fce11a9286d45fc04c82a27811e88094\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d751d0630f980735ea226bcb72179e1a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\d751d0630f980735ea226bcb72179e1a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\083e467218916ba14f9814a24644bd64\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\083e467218916ba14f9814a24644bd64\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.12.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\171867885cdae4633c2a5de4277ddcbd\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.12.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\171867885cdae4633c2a5de4277ddcbd\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\739ad17410b264794a71098df85515cf\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
@@ -228,6 +253,8 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FRANCISCO RUIZ\.gr
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\1f4bbed7fdd31ffce01972b40336461d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\6dfbd49f7ada1491036c90ebe0a33dd9\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\6dfbd49f7ada1491036c90ebe0a33dd9\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e6cb02acac6a24d0c6f4133f3f17ab2e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\e6cb02acac6a24d0c6f4133f3f17ab2e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\3bd6b364a34557809c6e31ee715bdd80\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\FRANCISCO RUIZ\.gradle\caches\transforms-4\3bd6b364a34557809c6e31ee715bdd80\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
