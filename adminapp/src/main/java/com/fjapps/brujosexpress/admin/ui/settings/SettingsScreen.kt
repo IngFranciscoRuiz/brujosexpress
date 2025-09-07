@@ -24,6 +24,8 @@ import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.fjapps.brujosexpress.admin.data.di.rememberSettingsViewModel
 import com.fjapps.brujosexpress.admin.ui.model.AdminStore
+import com.fjapps.brujosexpress.admin.data.di.StoreManager
+import androidx.compose.ui.platform.LocalContext
 
 data class AdminStore(
     val id: String,
@@ -38,6 +40,7 @@ data class AdminStore(
 @Composable
 fun SettingsScreen(navController: NavController) {
     val vm = rememberSettingsViewModel()
+    val context = LocalContext.current
     var store by remember { mutableStateOf(vm.store.value) }
     store = vm.store.collectAsState().value
 
@@ -51,7 +54,12 @@ fun SettingsScreen(navController: NavController) {
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 Button(
-                    onClick = { vm.updateStore(store) },
+                    onClick = {
+                        vm.updateStore(store)
+                        if (store.id.isNotBlank()) {
+                            StoreManager.save(context, store.id)
+                        }
+                    },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
                 ) { Text("Guardar cambios", color = Color.White) }

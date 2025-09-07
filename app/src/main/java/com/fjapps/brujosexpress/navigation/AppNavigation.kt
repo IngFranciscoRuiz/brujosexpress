@@ -30,6 +30,12 @@ fun AppNavigation(navController: NavHostController) {
         composable(Screen.Home.route) {
             HomeScreen(navController)
         }
+        composable(Screen.Stores.route) {
+            StoreListScreen(navController)
+        }
+        composable("storeCatalog/{storeId}") { backStackEntry ->
+            StoreCatalogScreen(navController, backStackEntry)
+        }
         composable(Screen.RestaurantCatalog.route) {
             RestaurantCatalogScreen(navController)
         }
@@ -48,12 +54,16 @@ fun AppNavigation(navController: NavHostController) {
         composable(Screen.Tracking.route) {
             OrderTrackingScreen(navController)
         }
+        composable("category/{category}") { backStackEntry ->
+            CategoryBrowseScreen(navController, backStackEntry)
+        }
     }
 }
 
 sealed class Screen(val route: String) {
     object Splash : Screen("splash")
     object Home : Screen("home")
+    object Stores : Screen("stores")
     object RestaurantCatalog : Screen("restaurantCatalog")
     object GroceryCatalog : Screen("groceryCatalog")
     object Cart : Screen("cart")

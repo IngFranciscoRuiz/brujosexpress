@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "519267245411",
+    "project_id": "brujosexpress-4a3ab",
+    "storage_bucket": "brujosexpress-4a3ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519267245411:android:e9613da70d0b6ed59bc756",
+        "android_client_info": {
+          "package_name": "com.fjapps.brujosexpress.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbozpMBa2OE01vN5kXdO4udWn4WeZad5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

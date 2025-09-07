@@ -6,7 +6,8 @@ data class AdminProduct(
     val priceCents: Int,
     val imageUrl: String?,
     val category: String,
-    val available: Boolean
+    val available: Boolean,
+    val featured: Boolean = false
 )
 
 data class AdminStore(

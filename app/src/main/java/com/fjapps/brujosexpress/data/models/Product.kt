@@ -2,6 +2,7 @@ package com.fjapps.brujosexpress.data.models
 
 data class Product(
     val id: String,
+    val storeId: String = "",
     val name: String,
     val price: Double,
     val imageUrl: String,

@@ -2,21 +2,24 @@ package com.fjapps.brujosexpress.admin.data.di
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import com.fjapps.brujosexpress.admin.data.repository.InMemoryAuthRepository
-import com.fjapps.brujosexpress.admin.data.repository.InMemoryOrdersRepository
-import com.fjapps.brujosexpress.admin.data.repository.InMemoryProductsRepository
-import com.fjapps.brujosexpress.admin.data.repository.InMemoryStoreRepository
+import com.fjapps.brujosexpress.admin.data.repository.*
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
 import com.fjapps.brujosexpress.admin.viewmodel.LoginViewModel
 import com.fjapps.brujosexpress.admin.viewmodel.OrdersViewModel
 import com.fjapps.brujosexpress.admin.viewmodel.ProductsViewModel
 import com.fjapps.brujosexpress.admin.viewmodel.SettingsViewModel
 
 object ServiceLocator {
-    // Single instances for in-memory repos
+    private const val DEFAULT_STORE_ID = "default-store" // fallback si no hay seleccionado
+    private val firestore by lazy { FirebaseFirestore.getInstance() }
+    private val storage by lazy { FirebaseStorage.getInstance() }
+
     val auth by lazy { InMemoryAuthRepository() }
-    val products by lazy { InMemoryProductsRepository() }
-    val orders by lazy { InMemoryOrdersRepository() }
-    val store by lazy { InMemoryStoreRepository() }
+    private fun storeId(): String = StoreManager.currentStoreId ?: DEFAULT_STORE_ID
+    val products by lazy { FirestoreProductsRepository(firestore, storage, storeId()) }
+    val orders by lazy { FirestoreOrdersRepository(firestore, storeId()) }
+    val store by lazy { FirestoreStoreRepository(firestore, storeId()) }
 }
 
 @Composable

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">519267245411</string>
+    <string name="google_api_key" translatable="false">AIzaSyDbozpMBa2OE01vN5kXdO4udWn4WeZad5w</string>
+    <string name="google_app_id" translatable="false">1:519267245411:android:e9613da70d0b6ed59bc756</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDbozpMBa2OE01vN5kXdO4udWn4WeZad5w</string>
+    <string name="google_storage_bucket" translatable="false">brujosexpress-4a3ab.firebasestorage.app</string>
+    <string name="project_id" translatable="false">brujosexpress-4a3ab</string>
+</resources>

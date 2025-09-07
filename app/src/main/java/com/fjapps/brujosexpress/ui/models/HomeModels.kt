@@ -14,7 +14,8 @@ data class FeaturedUi(
     val rating: Double,
     val etaMinutes: Int,
     val deliveryFee: Int,
-    val discountPercent: Int? = null
+    val discountPercent: Int? = null,
+    val storeId: String
 )
 
 

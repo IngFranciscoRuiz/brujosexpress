@@ -20,6 +20,7 @@ import androidx.navigation.navArgument
 import com.fjapps.brujosexpress.admin.ui.dashboard.DashboardScreen
 import com.fjapps.brujosexpress.admin.ui.login.LoginScreen
 import com.fjapps.brujosexpress.admin.ui.orders.OrdersScreen
+import com.fjapps.brujosexpress.admin.ui.stores.CreateStoreScreen
 import com.fjapps.brujosexpress.admin.ui.products.ProductEditScreen
 import com.fjapps.brujosexpress.admin.ui.products.ProductsScreen
 import com.fjapps.brujosexpress.admin.ui.settings.SettingsScreen
@@ -32,6 +33,7 @@ sealed class AdminRoute(val route: String) {
     data object Products : AdminRoute("products")
     data object ProductEdit : AdminRoute("product_edit?productId={id}")
     data object Settings : AdminRoute("settings")
+    data object CreateStore : AdminRoute("create_store")
 }
 
 @Composable
@@ -56,7 +58,8 @@ fun AdminNavRoot() {
                 DashboardScreen(
                     onOpenProducts = { navController.navigate(AdminRoute.Products.route) },
                     onOpenOrders = { navController.navigate(AdminRoute.Orders.route) },
-                    onOpenSettings = { navController.navigate(AdminRoute.Settings.route) }
+                    onOpenSettings = { navController.navigate(AdminRoute.Settings.route) },
+                    onOpenCreateStore = { navController.navigate(AdminRoute.CreateStore.route) }
                 )
             }
             composable(AdminRoute.Products.route) {
@@ -71,6 +74,9 @@ fun AdminNavRoot() {
             }
             composable(AdminRoute.Settings.route) {
                 SettingsScreen(navController)
+            }
+            composable(AdminRoute.CreateStore.route) {
+                CreateStoreScreen(navController)
             }
             // Placeholders for others
             composable(AdminRoute.Orders.route) { OrdersScreen(navController) }

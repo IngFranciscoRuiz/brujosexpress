@@ -7,21 +7,38 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Inventory2
 import androidx.compose.material.icons.filled.ListAlt
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.AddBusiness
 import androidx.compose.material3.*
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.platform.LocalContext
+import com.fjapps.brujosexpress.admin.data.di.StoreManager
+import com.google.firebase.functions.ktx.functions
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.auth.ktx.auth
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DashboardScreen(
     onOpenOrders: () -> Unit,
     onOpenProducts: () -> Unit,
-    onOpenSettings: () -> Unit
+    onOpenSettings: () -> Unit,
+    onOpenCreateStore: () -> Unit = {}
 ) {
-    Scaffold(topBar = { TopAppBar(title = { Text("Panel de administración") }) }) { padding ->
+    Scaffold(topBar = {
+        TopAppBar(title = { Text("Panel de administración") })
+    }) { padding ->
+        val context = LocalContext.current
+        // Cargar store seleccionada desde prefs al entrar al dashboard
+        LaunchedEffect(Unit) { StoreManager.load(context) }
         Column(
             modifier = Modifier
                 .fillMaxSize()
@@ -35,6 +52,7 @@ fun DashboardScreen(
             }
             Row(horizontalArrangement = Arrangement.spacedBy(16.dp), modifier = Modifier.fillMaxWidth()) {
                 SectionCard(title = "Ajustes", desc = "Configuración de la tienda", icon = Icons.Default.Settings, onClick = onOpenSettings, modifier = Modifier.weight(1f))
+                SectionCard(title = "Crear tienda", desc = "Alta de nueva tienda", icon = Icons.Default.AddBusiness, onClick = onOpenCreateStore, modifier = Modifier.weight(1f))
             }
         }
     }

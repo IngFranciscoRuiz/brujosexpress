@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.fjapps.brujosexpress.admin.adminapp-mergeDebugResources-51:/values-v16/values-v16.xml",
+            "outputFile": "com.fjapps.brujosexpress.admin.adminapp-mergeDebugResources-61:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FRANCISCO RUIZ\\.gradle\\caches\\transforms-4\\171867885cdae4633c2a5de4277ddcbd\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\FRANCISCO RUIZ\\.gradle\\caches\\transforms-4\\cfc2df6a67403647deb90b031c1cfe31\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
