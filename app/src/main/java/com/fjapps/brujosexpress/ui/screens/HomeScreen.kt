@@ -32,9 +32,20 @@ fun HomeScreen(navController: NavController) {
     val categories = listOf("Todos","Restaurantes","Tienda","Bebidas","Hamburguesas","Pizza","Mariscos","Abarrotes","Otros")
     val cartCount = 0
     var featured by remember { mutableStateOf(listOf<com.fjapps.brujosexpress.ui.models.FeaturedUi>()) }
+    var loading by remember { mutableStateOf(true) }
+    var error by remember { mutableStateOf<String?>(null) }
 
     LaunchedEffect(Unit) {
-        featured = try { FirestoreClientRepository().getFeatured() } catch (_: Exception) { emptyList() }
+        try {
+            loading = true
+            featured = FirestoreClientRepository().getFeatured()
+            error = null
+        } catch (e: Exception) {
+            featured = emptyList()
+            error = e.message
+        } finally {
+            loading = false
+        }
     }
 
     Scaffold(
@@ -94,10 +105,20 @@ fun HomeScreen(navController: NavController) {
                 }
             }
 
-            FeaturedCarousel(
-                items = featured,
-                onAdd = { f -> navController.navigate("storeCatalog/${f.storeId}") }
-            )
+            when {
+                loading -> {
+                    Box(Modifier.fillMaxWidth().height(140.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
+                }
+                error != null -> {
+                    Text("Error cargando destacados: ${'$'}error", color = Color.Red)
+                }
+                else -> {
+                    FeaturedCarousel(
+                        items = featured,
+                        onAdd = { f -> navController.navigate("storeCatalog/${f.storeId}") }
+                    )
+                }
+            }
 
             Spacer(modifier = Modifier.weight(1f))
             StickyMiniCart(

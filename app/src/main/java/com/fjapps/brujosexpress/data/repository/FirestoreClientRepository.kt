@@ -45,45 +45,41 @@ class FirestoreClientRepository(
     }
 
     suspend fun getFeatured(limit: Int = 10): List<FeaturedUi> {
-        // Simplify: fetch only featured and filter availability/open on client to avoid index edge cases
-        val snap = db.collectionGroup(COLLECTION_PRODUCTS)
-            .whereEqualTo("featured", true)
-            .limit(limit.toLong())
-            .get()
-            .await()
-
-        val byStore = mutableMapOf<String, Store>()
+        // Robust fallback without collectionGroup: recorre tiendas abiertas y toma destacados
+        val storesSnap = db.collection(COLLECTION_STORES).whereEqualTo("isOpen", true).get().await()
         val result = mutableListOf<FeaturedUi>()
-        for (doc in snap.documents) {
-            val storeId = doc.reference.parent.parent?.id ?: continue
-            val store = byStore.getOrPut(storeId) {
-                val s = db.collection(COLLECTION_STORES).document(storeId).get().await()
-                Store(
-                    id = storeId,
-                    name = s.getString("name") ?: "",
-                    logoUrl = s.getString("logoUrl"),
-                    isOpen = s.getBoolean("isOpen") ?: false,
-                    deliveryFeeCents = (s.getLong("deliveryFeeCents") ?: 0L).toInt()
+        for (s in storesSnap.documents) {
+            if (result.size >= limit) break
+            val store = Store(
+                id = s.id,
+                name = s.getString("name") ?: "",
+                logoUrl = s.getString("logoUrl"),
+                isOpen = true,
+                deliveryFeeCents = (s.getLong("deliveryFeeCents") ?: 0L).toInt()
+            )
+            val q = db.collection(COLLECTION_STORES).document(store.id)
+                .collection(COLLECTION_PRODUCTS)
+                .whereEqualTo("featured", true)
+                .whereEqualTo("available", true)
+                .limit((limit - result.size).toLong())
+                .get().await()
+            q.documents.forEach { d ->
+                val name = d.getString("name") ?: ""
+                val imageUrl = d.getString("imageUrl") ?: (store.logoUrl ?: "")
+                val fee = store.deliveryFeeCents / 100
+                result.add(
+                    FeaturedUi(
+                        id = d.id,
+                        name = name,
+                        imageUrl = imageUrl,
+                        rating = 4.5,
+                        etaMinutes = 25,
+                        deliveryFee = fee,
+                        discountPercent = null,
+                        storeId = store.id
+                    )
                 )
             }
-            // Filter only available products and open stores on client side
-            val available = doc.getBoolean("available") ?: false
-            if (!available || !store.isOpen) continue
-            val name = doc.getString("name") ?: ""
-            val imageUrl = doc.getString("imageUrl") ?: (store.logoUrl ?: "")
-            val fee = store.deliveryFeeCents / 100
-            result.add(
-                FeaturedUi(
-                    id = doc.id,
-                    name = name,
-                    imageUrl = imageUrl,
-                    rating = 4.5,
-                    etaMinutes = 25,
-                    deliveryFee = fee,
-                    discountPercent = null,
-                    storeId = storeId
-                )
-            )
         }
         return result
     }
